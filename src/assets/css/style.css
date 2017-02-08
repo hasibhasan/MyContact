@@ -56,8 +56,8 @@ div, article, section, header, footer, nav, li {
 	visibility:hidden; /* For clearing */
 }
 body {
-	background:#fff;
-	color: #444;
+	background:#742d3d;
+	color: #bbb;
 	font-size: 16px;
 	font-weight:300;
 	font-family:'Open Sans', Arial, sans-serif;
@@ -192,7 +192,7 @@ a:hover, a:active {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
-	color: #312f2b;
+	color: #bbb;
 	line-height:1.1em;
 	font-family:'Open Sans', Arial, sans-serif;
 }
@@ -827,7 +827,7 @@ section#blog {
 /* === section about === */
 
 section#about {
-	background:#f2f2f2;
+	background:#742d3d;
   min-height: 500px;
 }
 
