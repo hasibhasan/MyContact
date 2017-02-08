@@ -8,6 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { AppRoutingModule} from "./app-routing.module";
 import { AboutComponent } from './about/about.component';
 import {HeaderComponent} from "./header/header.component";
+import {AdminModule} from "./admin/admin.module";
 
 
 @NgModule({
@@ -22,7 +23,9 @@ import {HeaderComponent} from "./header/header.component";
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminModule
+
 
   ],
   providers: [],
